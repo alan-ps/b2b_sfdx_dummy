@@ -1,8 +1,7 @@
 @isTest
 private class TestMyMagicTrigger {
 
-    @isTest
-    static void testReverseFeature() {
+    public static testmethod void testReverseFeature() {
         Test.startTest();
 
         ccrz__E_Product__c cc_product = new ccrz__E_Product__c(
