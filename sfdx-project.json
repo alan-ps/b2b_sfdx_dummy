@@ -2,10 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "dependencies": [
+        {
+          "package": "B2B Commerce@3.136.28"
+        }
+      ]
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "47.0"
+  "sourceApiVersion": "47.0",
+  "packageAliases": {
+    "B2B Commerce@3.136.28": "04t0V0000015bmm"
+  }
 }
